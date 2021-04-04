@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nenmenu{ background-color: antiquewhite;
+width: 100%;
+}
+
+@font-face {
+	font-family:tieude;
+	src:url("../font/nunito/Nunito-ExtraBold.ttf");}
+@font-face {
+	font-family:tieude2;
+	src:url("../font/nunito/Nunito-Regular.ttf");}
+
+
+
+

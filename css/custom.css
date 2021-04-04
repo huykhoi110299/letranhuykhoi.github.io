@@ -1,0 +1,129 @@
+html {
+  padding: 50px;
+  font-family: sans-serif;
+}
+html h1 {
+  text-align: center;
+}
+html h5 {
+  text-align: left;
+  color: rgba(107,92,93,1.00);
+}
+.tieude{color: chocolate;
+	text-align: center;
+	font-family:tieude;
+	font-size: 25px;}
+.kichthuoc{margin-bottom: 20px;
+position: relative;
+overflow: hidden;}
+.kichthuoc img{width: 100%;}
+.thongtinchitiet{
+	width: 90%;
+	height: 70px;
+	background-color:#FFAE00;
+	position: absolute;
+	left: 0px;
+	bottom: -70px;
+	margin: 0 15px;
+	opacity: 0;
+	  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+	-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+
+}
+.kichthuoc:hover .thongtinchitiet{opacity: 1;
+bottom: 0px;}
+#exampleSlider {position: relative;}
+
+#exampleSlider .MS-content {margin: 10px 5%;overflow: hidden;white-space: nowrap;}
+
+#exampleSlider .MS-content .item {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+padding: 0 10px;
+  border-right: none;
+  width: 25%;
+}
+#exampleSlider .MS-content .item p {
+  font-size: 15px;
+  font-family:tieude;
+  text-align: center;
+/*  line-height: 1;*/
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+	
+}
+#exampleSlider .MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 150px;
+}
+@media (max-width: 1200px) {
+  #exampleSlider .MS-content .item {
+    width: 25%;
+	font-size: 15px;}  
+				}
+@media (max-width: 992px) {
+  #exampleSlider .MS-content .item {
+    width: 33.3333%;
+	   font-size: 12px;}  }
+@media (max-width: 767px) {
+  #exampleSlider .MS-content .item {
+    width: 50%;}
+	.MS-content .item p {
+		font-size: 10px;}
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content {margin: 0;}
+}
+
+@media (max-width: 767px) {
+  #exampleSlider .MS-controls button {
+    display: none;
+  }
+}
+#exampleSlider .MS-controls button:hover {
+  cursor: pointer;
+}
+#exampleSlider .MS-controls .MS-left {
+  left: 10px;
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#exampleSlider .MS-controls .MS-right {
+  right: 10px;
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-right {
+    right: -2px;
+  }
+}
+
+
+
+
+
+@media (max-width: 992px) {
+	.thongtinchitiet{width: 93%;height: 20%}
+	.tieude{margin-top: 45px;}
+	}
+@media (max-width: 676px) {
+	.thongtinchitiet{width: 93%;height: 20%}
+	.tieude{margin-top: 45px;}
+}
